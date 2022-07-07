@@ -41,7 +41,7 @@ Constructing the cox risk regression model with cell marker genes
 ```
 library(survival)
 #Run the function
-R.result<-RiskRegressModel(cellname='NK cells',ExpData=GEP,clinical=clinicaldata,p.cutoff=0.01,method = 'univ')
+R.result<-RiskRegressModel(cellname='M1 Macrophages',ExpData=GEP,clinical=clinicaldata,p.cutoff=0.01,method = 'univ')
 ```
 # Visualize 1 
 Draw a forest plot
